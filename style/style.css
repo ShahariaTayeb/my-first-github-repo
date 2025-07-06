@@ -10,20 +10,27 @@
 
 /* header-start */
 
+.header-section{}
 .header-section .menu{
-    text-align: center;
-    background-color: white;
+    margin: 0;
     padding-top: 30px;
     padding-bottom: 15px;
-    margin: 0;
+    background-color: white;
+    text-align: center;
 }
-.header-section .menu ul{
-
-}
+.header-section .menu ul{}
 .header-section .menu ul li{
     list-style: none;
     display: inline-block;
     margin-left: 20px;
     padding: 15px 30px;
-    background: cyan;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.header-section .menu ul li a{
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: black;
 }
