@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header-start */
+
+.header-section .menu{
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+.header-section .menu ul{
+
+}
+.header-section .menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 15px 30px;
+    background: cyan;
+}
